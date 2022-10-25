@@ -58,7 +58,7 @@ Destinations = [
     },
 '''
 print(Goal_sum)
-print("Calculationg for: ", Start, " - ", End, " With step: ", Goal_sum)
+print("Calculating for: ", Start, " - ", End, " With step: ", Goal_sum)
 print("-" * 50)
 stacking = True
 DrivenDays = 0
