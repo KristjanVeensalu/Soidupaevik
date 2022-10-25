@@ -1,6 +1,6 @@
 import random as rand
 
-Start = 142423
+Start = 144804
 Goal_sum = rand.randrange(412, 421, 1)
 End = Start + Goal_sum
 Traveled = Start
@@ -22,19 +22,13 @@ Destinations = [
         "Sihtkoht": "Peterburi tee 92g - Rotermanni 7 - Peterburi tee 92g",
         "Vahemaa": 30,
         "Eesmärk": "Bitfiner konsultatsioon",
-        "Kasutusi": 2
+        "Kasutusi": 5
     },
     {
         "Sihtkoht": "Suur-Ameerika 51a - Lõõtsa 12 - Peterburi tee 92g",
         "Vahemaa": 30,
         "Eesmärk": "Primend konsultatsioon",
-        "Kasutusi": 1
-    },
-    {
-        "Sihtkoht": "Peterburi tee 92g - Narva mnt 25 - Suur-Ameerika 51a",
-        "Vahemaa": 27,
-        "Eesmärk": "Informaatika loeng",
-        "Kasutusi": 8
+        "Kasutusi": 3
     },
     {
         "Sihtkoht": "Peterburi tee 92g - Lastekodu 46 - Peterburi tee 92g",
@@ -42,8 +36,27 @@ Destinations = [
         "Eesmärk": "Arvuti transport",
         "Kasutusi": 100
     },
+    {
+        "Sihtkoht": "Peterburi tee 92g - Lõõtsa 6 - Peterburi tee 92g",
+        "Vahemaa": 24,
+        "Eesmärk": "Infovara konsultatsioon",
+        "Kasutusi": 100
+    },
+    {
+        "Sihtkoht": "Peterburi tee 92g - Paldiski mnt 102 - Peterburi tee 92g",
+        "Vahemaa": 34,
+        "Eesmärk": "IT varustus",
+        "Kasutusi": 100
+    },
 ]
-
+'''
+    {
+        "Sihtkoht": "Peterburi tee 92g - Ilmatsalu 3b - Suur-Ameerika 51a",
+        "Vahemaa": 362,
+        "Eesmärk": "Upin IT Konsultatsioon",
+        "Kasutusi": 1
+    },
+'''
 print(Goal_sum)
 print("Calculationg for: ", Start, " - ", End, " With step: ", Goal_sum)
 print("-" * 50)
